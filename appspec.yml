@@ -1,0 +1,5 @@
+version: 0.0
+os: linux
+files:
+  - source: /var/lib/jenkins/workspace/dreamztech/java-webproject1/target/java-web-project1.war
+    destination: /var/www/html/
