@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
+  - source: /var/lib/jenkins/workspace/dreamztech/java-web-project1/target/java-web-project1.war
     destination: /var/www/html/
 hooks:
   BeforeInstall:
